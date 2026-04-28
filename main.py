@@ -16,7 +16,7 @@ def build_anime_rss():
     params = {
         "where": json.dumps({"genre": "Series", "subgenre": "Animación"}),
         "order": "-updatedAt",
-        "limit": 24
+        "limit": 1000
     }
 
     print("Fetching data from AMC API...")
