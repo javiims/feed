@@ -1,63 +1,74 @@
 import requests
-from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 import datetime
 
 def build_anime_rss():
-    url = "https://amcchannels.es/buscar/categoria/Series?sub=Animaci%C3%B3n"
+    api_url = "https://tuamc.b4a.app/classes/Content"
     
-    # Use headers to mimic a real browser, preventing the site from blocking you
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Content-Type': 'text/plain',
+        'Origin': 'https://amcchannels.es',
+        'Referer': 'https://amcchannels.es/'
     }
 
-    # 1. Fetch the webpage
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
+    # Your exact payload from the Network Tab
+    payload = {
+        "_ApplicationId": "EqXj3CWkTa9Ens1sPrzQkKMbBdnc6bYbHKR2qvRE",
+        "_JavaScriptKey": "Cd3j7SWbPhXJahCRK3D47bcYFNnHWFjBfiDnXSjX",
+        "_ClientVersion": "js3.4.1",
+        "_Method": "GET",
+        "where": {
+            "genre": "Series",
+            "subgenre": "Animación"
+        },
+        "order": "-updatedAt",
+        "limit": 24
+    }
+
+    print("Fetching data via POST request...")
+    response = requests.post(api_url, headers=headers, json=payload)
     
-    # 2. Parse the HTML
-    soup = BeautifulSoup(response.text, 'html.parser')
+    if response.status_code != 200:
+        print(f"Error fetching data: {response.text}")
+        return
+
+    data = response.json() 
+    anime_list = data.get('results', []) 
     
-    # 3. Initialize the RSS Feed
     fg = FeedGenerator()
     fg.title('AMC Channels - Series de Animación')
-    fg.link(href=url, rel='alternate')
+    fg.link(href="https://amcchannels.es/buscar/categoria/Series?sub=Animaci%C3%B3n", rel='alternate')
     fg.description('Últimas series de animación publicadas en AMC Channels.')
     fg.language('es')
 
-    # 4. Find all anime items on the page
-    # ---> CHANGE 'article.card-item' TO THE ACTUAL CSS SELECTOR OF THE ANIME CARDS <---
-    anime_items = soup.select('.item-class') 
-
-    for item in anime_items:
-        # ---> CHANGE THESE SELECTORS TO MATCH THE SITE'S HTML <---
-        title_element = item.select_one('.title-class')
-        link_element = item.select_one('a')
-        desc_element = item.select_one('.description-class')
+    for item in anime_list:
+        title = item.get('title', item.get('name', 'Sin título')) 
         
-        if not title_element or not link_element:
-            continue
-
-        title = title_element.get_text(strip=True)
-        link = link_element['href']
-        
-        # Make sure the link is an absolute URL
+        link = item.get('url', item.get('slug', ''))
         if not link.startswith('http'):
-            link = "https://amcchannels.es" + link
+            link = "https://amcchannels.es/series/" + link.strip('/')
             
-        description = desc_element.get_text(strip=True) if desc_element else "Sin descripción"
+        description = item.get('description', item.get('synopsis', 'Sin descripción'))
 
-        # 5. Add the item to our RSS feed
         fe = fg.add_entry()
         fe.title(title)
         fe.link(href=link)
         fe.description(description)
-        # Using a fixed date or current time if the site doesn't list publish dates
-        fe.pubDate(datetime.datetime.now(datetime.timezone.utc)) 
         
-    # 6. Save the RSS feed to an XML file
+        # Pull the actual "updatedAt" or "createdAt" time from the database
+        date_str = item.get('updatedAt', item.get('createdAt'))
+        if date_str:
+            # Parse the ISO format date provided by Back4App (e.g., "2023-10-05T14:48:00.000Z")
+            # The replace('Z', '+00:00') ensures Python handles the UTC timezone correctly
+            pub_date = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        else:
+            pub_date = datetime.datetime.now(datetime.timezone.utc)
+            
+        fe.pubDate(pub_date) 
+        
     fg.rss_file('amc_animacion.xml')
-    print("✅ RSS Feed successfully generated: amc_animacion.xml")
+    print(f"✅ RSS Feed generated with {len(anime_list)} series: amc_animacion.xml")
 
 if __name__ == '__main__':
     build_anime_rss()
