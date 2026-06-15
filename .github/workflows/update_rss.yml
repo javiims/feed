@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add amc_animacion.xml
+          git add amc_animacion_test.xml
           git commit -m "Auto-update RSS feed" || exit 0
           git push
