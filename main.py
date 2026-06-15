@@ -61,8 +61,8 @@ def build_anime_rss():
             
         fe.pubDate(pub_date) 
         
-    fg.rss_file('amc_animacion.xml')
-    print(f"✅ RSS Feed generated with {len(anime_list)} series: amc_animacion.xml")
+    fg.rss_file('amc_animacion_test.xml')
+    print(f"✅ RSS Feed generated with {len(anime_list)} series: amc_animacion_test.xml")
 
 if __name__ == '__main__':
     build_anime_rss()
