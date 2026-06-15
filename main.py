@@ -6,13 +6,11 @@ import datetime
 def build_anime_rss():
     api_url = "https://tuamc.b4a.app/classes/Content"
     
-    # 1. Official REST APIs put the keys in the Headers, not the payload
     headers = {
         "X-Parse-Application-Id": "EqXj3CWkTa9Ens1sPrzQkKMbBdnc6bYbHKR2qvRE",
         "X-Parse-JavaScript-Key": "Cd3j7SWbPhXJahCRK3D47bcYFNnHWFjBfiDnXSjX"
     }
 
-    # 2. The search filters go into the URL parameters
     params = {
         "where": json.dumps({"genre": "Series", "subgenre": "Animación"}),
         "order": "-updatedAt",
@@ -20,7 +18,6 @@ def build_anime_rss():
     }
 
     print("Fetching data from AMC API...")
-    # 3. We do a standard GET request now!
     response = requests.get(api_url, headers=headers, params=params)
     
     if response.status_code != 200:
@@ -32,53 +29,35 @@ def build_anime_rss():
     
     if not anime_list:
         print("⚠️ Warning: The database returned 0 items. Check the 'where' filter.")
+        return
 
     fg = FeedGenerator()
     fg.title('AMC Channels - Series de Animación')
-    fg.link(href="https://amcchannels.es/buscar/categoria/Series?sub=Animaci%C3%B3n", rel='alternate')
+    fg.link(href="https://amcchannels.es/buscar/categoria/Series?sub=Animacion", rel='alternate')
     fg.description('Últimas series de animación publicadas en AMC Channels.')
     fg.language('es')
 
-
-    data = response.json() 
-    anime_list = data.get('results', []) 
-    
-    if not anime_list:
-        print("⚠️ Warning: The database returned 0 items. Check the 'where' filter.")
-        return
-
-    # --- ADD THIS TEMPORARY DEBUG CODE ---
-    print("\n🔍 --- FIRST ITEM DATA --- 🔍")
-    # json.dumps with indent=4 makes it highly readable
-    print(json.dumps(anime_list[0], indent=4, ensure_ascii=False))
-    print("--------------------------------\n")
-    # -------------------------------------
-
-    fg = FeedGenerator()
     for item in anime_list:
-        # Fetch the parent anime title. 
-        # Note: Change 'showTitle' or 'seriesName' if the API uses a different key (like 'show' or 'anime_title')
-        anime_title = item.get('showTitle', item.get('seriesName', ''))
-        episode_title = item.get('title', item.get('name', 'Sin título')) 
+        # 1. Grab the metaTitle which already contains the Anime + Episode Name.
+        # Fallback to standard title or 'Sin título' if it's missing to prevent crashes.
+        title = item.get('metaTitle') or item.get('title') or 'Sin título'
         
-        # Combine the anime title and episode title
-        if anime_title and anime_title != episode_title:
-            full_title = f"{anime_title} - {episode_title}"
-        else:
-            full_title = episode_title
-            
-        link = item.get('url', item.get('slug', ''))
+        # 2. Grab the slug for the URL. Fallback safely to prevent crashes.
+        link = item.get('slug') or item.get('url') or ''
         if not link.startswith('http'):
-            link = "https://amcchannels.es/series/" + link.strip('/')
+            link = "https://amcchannels.es/series/" + str(link).strip('/')
             
-        description = item.get('description', item.get('synopsis', 'Sin descripción'))
+        # 3. Grab the description. Fallback safely to prevent crashes.
+        description = item.get('description') or item.get('metaDescription') or 'Sin descripción'
 
         fe = fg.add_entry()
-        fe.title(full_title) # Assign the newly formatted title here
-        fe.link(href=link)
-        fe.description(description)
         
-        date_str = item.get('updatedAt', item.get('createdAt'))
+        # 4. Wrap everything in str() to guarantee feedgen never receives a 'None' type
+        fe.title(str(title))
+        fe.link(href=str(link))
+        fe.description(str(description))
+        
+        date_str = item.get('updatedAt') or item.get('createdAt')
         if date_str:
             pub_date = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
         else:
