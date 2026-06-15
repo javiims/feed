@@ -39,9 +39,34 @@ def build_anime_rss():
     fg.description('Últimas series de animación publicadas en AMC Channels.')
     fg.language('es')
 
+
+    data = response.json() 
+    anime_list = data.get('results', []) 
+    
+    if not anime_list:
+        print("⚠️ Warning: The database returned 0 items. Check the 'where' filter.")
+        return
+
+    # --- ADD THIS TEMPORARY DEBUG CODE ---
+    print("\n🔍 --- FIRST ITEM DATA --- 🔍")
+    # json.dumps with indent=4 makes it highly readable
+    print(json.dumps(anime_list[0], indent=4, ensure_ascii=False))
+    print("--------------------------------\n")
+    # -------------------------------------
+
+    fg = FeedGenerator()
     for item in anime_list:
-        title = item.get('title', item.get('name', 'Sin título')) 
+        # Fetch the parent anime title. 
+        # Note: Change 'showTitle' or 'seriesName' if the API uses a different key (like 'show' or 'anime_title')
+        anime_title = item.get('showTitle', item.get('seriesName', ''))
+        episode_title = item.get('title', item.get('name', 'Sin título')) 
         
+        # Combine the anime title and episode title
+        if anime_title and anime_title != episode_title:
+            full_title = f"{anime_title} - {episode_title}"
+        else:
+            full_title = episode_title
+            
         link = item.get('url', item.get('slug', ''))
         if not link.startswith('http'):
             link = "https://amcchannels.es/series/" + link.strip('/')
@@ -49,7 +74,7 @@ def build_anime_rss():
         description = item.get('description', item.get('synopsis', 'Sin descripción'))
 
         fe = fg.add_entry()
-        fe.title(title)
+        fe.title(full_title) # Assign the newly formatted title here
         fe.link(href=link)
         fe.description(description)
         
@@ -61,8 +86,8 @@ def build_anime_rss():
             
         fe.pubDate(pub_date) 
         
-    fg.rss_file('amc_animacion_test.xml')
-    print(f"✅ RSS Feed generated with {len(anime_list)} series: amc_animacion_test.xml")
+    fg.rss_file('amc_animacion.xml')
+    print(f"✅ RSS Feed generated with {len(anime_list)} series: amc_animacion.xml")
 
 if __name__ == '__main__':
     build_anime_rss()
