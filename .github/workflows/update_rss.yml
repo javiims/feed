@@ -2,8 +2,20 @@ name: Update RSS Feed
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Runs every 12 hours (adjust as you like)
-  workflow_dispatch:       # Allows manual testing
+    - cron: '0 */3 * * *'   # every 3 hours
+  workflow_dispatch:
+    inputs:
+      inspect:
+        description: 'Print DB genre/subgenre values instead of building the feed'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write            # required for the push with GITHUB_TOKEN
+
+concurrency:
+  group: update-rss
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -15,18 +27,27 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Inspect database (manual only)
+        if: ${{ github.event.inputs.inspect == 'true' }}
+        run: python main.py --inspect
+
       - name: Run scraper
+        if: ${{ github.event.inputs.inspect != 'true' }}
         run: python main.py
 
       - name: Commit and push changes
+        if: ${{ github.event.inputs.inspect != 'true' }}
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add amc_animacion.xml
-          git commit -m "Auto-update RSS feed" || exit 0
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Auto-update RSS feed"
+          git pull --rebase
           git push
