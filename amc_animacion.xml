@@ -1,2 +1,502 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>AMC Channels - Series de Animación</title><link>https://amcchannels.es/buscar/categoria/Series?sub=Animacion</link><description>Últimas series de animación publicadas en AMC Channels.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>es</language><lastBuildDate>Sat, 31 Oct 2026 11:26:09 +0000</lastBuildDate><item><title>La rebelión de los cuentos: Episodio 1</title><link>https://amcchannels.es/series/la-rebelion-de-los-cuentos-episodio-1</link><description>Las jóvenes Blancanieves y Caperucita Roja se hacen amigas para toda la vida. En tanto Blancanieves se enfrenta al poder de la malvada Reina, Caperucita es llamada a casa para enfrentarse a un par de lobos hambrientos: uno se ha comido a su abuela y luego se ha vestido con sus ropas, mientras que el otro no puede evitar comerse a unos cerdos desprevenidos. </description><pubDate>Wed, 09 Apr 2025 10:33:58 +0000</pubDate></item><item><title>La rebelión de los cuentos: Episodio 2</title><link>https://amcchannels.es/series/la-rebelion-de-los-cuentos-episodio-2</link><description>Jack crece con el corazón puesto en Cindy, la vecina de al lado. Ella se deja seducir por el príncipe elegible en el baile, y Jack se distrae con un tallo de judía gigante en el fondo de su jardín. ¿Encontrarán el amor verdadero?</description><pubDate>Wed, 09 Apr 2025 10:33:58 +0000</pubDate></item><item><title>Naranjito, fútbol en acción: Naranjito, fútbol en acción</title><link>https://amcchannels.es/series/naranjito-futbol-en-accion-naranjito-futbol-en-accion</link><description>Aventuras basadas en el Mundial de Fútbol de 1982 con la mascota oficial como protagonista, Naranjito. Naranjito está acompañado por sus amigos Clementina, Citronio y el robot Imarchi.</description><pubDate>Mon, 11 May 2026 10:15:47 +0000</pubDate></item><item><title>Yaiba: Samurai Legend: Episodio 3</title><link>https://amcchannels.es/series/yaiba-samurai-legend-episodio-3</link><description>Esta vez es Onimaru quien lanza el desafío. Sin embargo, Yaiba descubre que la increíble fuerza de la Espada del Dios del Viento es mucho más peligrosa de lo que imaginaba.</description><pubDate>Sat, 19 Sep 2026 11:53:40 +0000</pubDate></item><item><title>Yaiba: Samurai Legend: Episodio 1</title><link>https://amcchannels.es/series/yaiba-samurai-legend-episodio-1</link><description>Yaiba Kurogane está decidido a convertirse en un auténtico samurái. Pero mientras entrena en plena selva, todo da un giro inesperado que cambiará su destino para siempre.</description><pubDate>Tue, 29 Sep 2026 10:26:35 +0000</pubDate></item><item><title>Yaiba: Samurai Legend: Episodio 2</title><link>https://amcchannels.es/series/yaiba-samurai-legend-episodio-2</link><description>Yaiba intenta llamar la atención de Onimaru para retarlo. Pero después de destrozar su preciado palomar, la rivalidad entre ambos estalla en un combate explosivo.</description><pubDate>Tue, 29 Sep 2026 10:26:35 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AMC Channels - Series de Animación</title>
+    <link>https://amcchannels.es/buscar/categoria/Series?sub=Animacion</link>
+    <description>Últimas series de animación publicadas en AMC Channels.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 31 Oct 2026 15:50:52 +0000</lastBuildDate>
+    <item>
+      <title>Yaiba: Samurai Legend: Episodio 3</title>
+      <link>https://amcchannels.es/programa/yaiba-samurai-legend-episodio-3</link>
+      <description>Esta vez es Onimaru quien lanza el desafío. Sin embargo, Yaiba descubre que la increíble fuerza de la Espada del Dios del Viento es mucho más peligrosa de lo que imaginaba.</description>
+      <guid isPermaLink="false">sklbQn6qez</guid>
+      <pubDate>Mon, 07 Sep 2026 08:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yaiba: Samurai Legend: Episodio 2</title>
+      <link>https://amcchannels.es/programa/yaiba-samurai-legend-episodio-2</link>
+      <description>Yaiba intenta llamar la atención de Onimaru para retarlo. Pero después de destrozar su preciado palomar, la rivalidad entre ambos estalla en un combate explosivo.</description>
+      <guid isPermaLink="false">rvT8tzTRwB</guid>
+      <pubDate>Mon, 07 Sep 2026 08:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yaiba: Samurai Legend: Episodio 1</title>
+      <link>https://amcchannels.es/programa/yaiba-samurai-legend-episodio-1</link>
+      <description>Yaiba Kurogane está decidido a convertirse en un auténtico samurái. Pero mientras entrena en plena selva, todo da un giro inesperado que cambiará su destino para siempre.</description>
+      <guid isPermaLink="false">IymQ3xw6rI</guid>
+      <pubDate>Mon, 07 Sep 2026 08:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Naranjito, fútbol en acción: Naranjito, fútbol en acción</title>
+      <link>https://amcchannels.es/programa/naranjito-futbol-en-accion-naranjito-futbol-en-accion</link>
+      <description>Aventuras basadas en el Mundial de Fútbol de 1982 con la mascota oficial como protagonista, Naranjito. Naranjito está acompañado por sus amigos Clementina, Citronio y el robot Imarchi.</description>
+      <guid isPermaLink="false">s0volQJlRl</guid>
+      <pubDate>Sun, 10 May 2026 10:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El renacimiento del as Julian Ross</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-renacimiento-del-as-julian-ross</link>
+      <description>El Tojú aprovecha la ausencia inicial de Ross para, rápidamente, tomar una ventaja de 3-0 con un hat-trick de Lenders. Ross decide entrar al campo ya en los últimos minutos de la primera mitad y, al final de la primera mitad del juego, logra recortar distancias pasando a Warner en la salida y marcando a puerta vacía.</description>
+      <guid isPermaLink="false">gLlcfx3GDn</guid>
+      <pubDate>Mon, 14 Jul 2025 10:01:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Derrotaré a Oliver! Soy un héroe</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-derrotare-a-oliver-soy-un-heroe</link>
+      <description>Flynet, Hotdog y Army también se clasifican para el campeonato nacional. La final del torneo de la prefectura de Tokio se jugará entre el Tojú de Mark, Ed y Danny y el Mambo de Julian, quien ha vuelto a jugar después de casi tres años de inactividad debido a sus problemas de salud.</description>
+      <guid isPermaLink="false">DMnhJdBWZt</guid>
+      <pubDate>Mon, 14 Jul 2025 10:01:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La canción de cuna de los adversarios</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-cancion-de-cuna-de-los-adversarios</link>
+      <description>La respuesta del Newteam llega con Oliver, quien logra marcar al final de una acción en equipo en la que también participan Diamond, Carter y Mason. Newteam toma las contramedidas adecuadas para neutralizar las acciones ofensivas del Otomo, interceptando todos los pases previsiblemente dirigidos a Everett o aplicando el fuera de juego.</description>
+      <guid isPermaLink="false">BCl2zSTymj</guid>
+      <pubDate>Sun, 13 Jul 2025 10:01:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El tiro del halcón al vuelo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-tiro-del-halcon-al-vuelo</link>
+      <description>Mientras Oliver continúa marcando al hombre en la segunda mitad, Everett se da cuenta de que la única forma de meter un gol es volear como lo hizo el propio Oliver al final de la primera mitad. Inicialmente, como apuntar bien en una volea es muy difícil, los tiros de Everett acaban desviados, pero lo que se nota es que, a medida que aumenta el número de intentos, su puntería va mejorando.</description>
+      <guid isPermaLink="false">zoa0Wory9R</guid>
+      <pubDate>Sun, 13 Jul 2025 10:01:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Oliver! Conviértete en el halcón del campo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-oliver-conviertete-en-el-halcon-del-campo</link>
+      <description>Sorprendentemente, Oliver decide marcar a Patrick Everett para evitar que marque con el tiro de halcón y lo logra. Un disparo lejano de Everett se va desviado gracias a un ligero desvío de Atton. Sin embargo, con Oliver en defensa, Newteam pierde efectividad en ataque debido a la solidez de la defensa del Otomo.</description>
+      <guid isPermaLink="false">mladtT96r3</guid>
+      <pubDate>Sat, 12 Jul 2025 10:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Un nuevo Rival</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-un-nuevo-rival</link>
+      <description>El Newteam, después de haber superado la primera ronda al vencer a Iron por 6-0, también gana fácilmente las siguientes rondas, accediendo a la final del torneo de Shizuoka que lo jugará contra el Otomo, que podrá contar con Patrick y con cuatro ex jugadores del Newteam de la escuela primaria: Jack, Charlie, Frenkie y Jil.</description>
+      <guid isPermaLink="false">j69mQB9LOz</guid>
+      <pubDate>Sat, 12 Jul 2025 10:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Somos alumnos de 3º</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-somos-alumnos-de-3</link>
+      <description>La historia da un salto narrativo de tres años durante los cuales el Newteam, renovado en jugadores y liderado por Oliver, ha ganado dos campeonatos nacionales de secundaria y aspira a ganar el tercero consecutivo. El Newteam, mientras está ocupado entrenando para el próximo campeonato nacional, se encuentra con un nuevo oponente: Patrick.</description>
+      <guid isPermaLink="false">E12gWiRRu9</guid>
+      <pubDate>Wed, 09 Jul 2025 10:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Hacia la 3ª victoria consecutiva</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-hacia-la-3-victoria-consecutiva</link>
+      <description>Al darse cuenta de la fuerza de Otomo, Oliver teme que el Newteam se haya dormido e intensifica el entrenamiento regañando severamente a sus compañeros de equipo ante el más mínimo error cometido. Se organiza un partido de entrenamiento entre los titulares de tercer año y los reservas de primer y segundo año. Oliver está incluido en el equipo de primer y segundo año.</description>
+      <guid isPermaLink="false">WYSuEAwizE</guid>
+      <pubDate>Wed, 09 Jul 2025 10:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Gloria y adiós</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-gloria-y-adios</link>
+      <description>Oliver salta más allá de Warner al salir y dispara un tiro muy violento que atraviesa la red vacía para sellar la victoria del Newteam por 4-2. El Newteam gana así el torneo y los equipos se felicitan, pero Roberto decide que no puede cumplir la promesa que le hizo a Oliver de llevarlo a Brasil porque no quiere separar a la familia de Oliver.</description>
+      <guid isPermaLink="false">dUTHx6eVyD</guid>
+      <pubDate>Tue, 08 Jul 2025 14:31:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El momento de la despedida</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-momento-de-la-despedida</link>
+      <description>Oliver está angustiado por la partida de Roberto. Bruce logra comunicarse con él a tiempo para informarle de que Tom se irá en unos minutos en el autobús. Oliver tiene tiempo de saludar a Tom, que se ha muda a otra ciudad con su padre, y le lanza un balón lleno de dedicatorias hacia el autobús, que Tom logra coger. Benji también dejará el equipo para seguir a Freddy en Alemania.</description>
+      <guid isPermaLink="false">WtRYFoEwSj</guid>
+      <pubDate>Tue, 08 Jul 2025 14:31:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La resurrección de la pareja de oro</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-resurreccion-de-la-pareja-de-oro</link>
+      <description>El segundo tiempo extra comienza con Muppett casi tomando ventaja con Lenders, que evita la salida de Benji y dispara a la portería vacía, pero Oliver logra salvar en la línea. Oliver y Tom, renovados por el descanso, atacan con decisión y Oliver, tras un centro de Bruce, marca el gol con un puntapié para poner el 3-2.</description>
+      <guid isPermaLink="false">RaPxff1Yot</guid>
+      <pubDate>Mon, 07 Jul 2025 10:02:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡La última batalla! Oliver contra Mark</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-ultima-batalla-oliver-contra-mark</link>
+      <description>Lenders no se rinde y ataca en busca del empate. La lesión en la pierna de Benji empeora cada vez más y cae al suelo de dolor. Lenders aprovecha la situación con una volea dirigida a la portería vacía, pero Benji logra reaccionar en el último minuto y despejar el balón a pesar del fuerte dolor.</description>
+      <guid isPermaLink="false">Q0s7ETcrwa</guid>
+      <pubDate>Mon, 07 Jul 2025 10:02:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Lucha a muerte! Una nueva prórroga</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-lucha-a-muerte-una-nueva-prorroga</link>
+      <description>Durante el descanso, una agradable lluvia refrescante alivia a los jugadores. Benji tiene una idea para jugar la próxima prórroga: Oliver y Tom descansarán y dejarán que los Muppett ataquen, pero serán detenidos por el resto del equipo. De esta forma, la pareja de oro del Newteam, descansada, podrá asegurarse la victoria en la segunda parte.</description>
+      <guid isPermaLink="false">lKYb925Jup</guid>
+      <pubDate>Mon, 07 Jul 2025 10:01:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡No vamos a perder!</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-no-vamos-a-perder</link>
+      <description>La segunda parte extra comienza con los equipos cansados también por el sol abrasador. Hay un nuevo duelo entre Oliver y Lenders, esta vez Mark tiene la ventaja, gracias al calor que hace que Oliver caiga al suelo. En el ataque que sigue, Benji detiene la insidiosa patada desde arriba de Lenders.</description>
+      <guid isPermaLink="false">BgWa2BtbNg</guid>
+      <pubDate>Mon, 07 Jul 2025 10:01:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¿Gol anulado?</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-gol-anulado</link>
+      <description>Al final de la primera mitad extra, Tom, a pesar de estar dolorido por su lesión, logra hacerle un pase a Oliver en el último momento antes de que sus oponentes logren robarle el balón. Oliver termina con un puntapié que engaña a Warner y entra en la red. Al ser marcado fuera del tiempo límite, el gol no es válido y el resultado queda en 2-2.</description>
+      <guid isPermaLink="false">OYflutaNdC</guid>
+      <pubDate>Sat, 05 Jul 2025 10:01:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Prórroga al rojo vivo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-prorroga-al-rojo-vivo</link>
+      <description>En la primera mitad de la prórroga, ambos equipos atacan en busca de la victoria pero tanto Benji como Warner logran frustrar los disparos de Lenders y Becker, respectivamente, con increíbles intervenciones.</description>
+      <guid isPermaLink="false">kK0U5rsfYY</guid>
+      <pubDate>Sat, 05 Jul 2025 10:01:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El milagro del tiro triple</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-milagro-del-tiro-triple</link>
+      <description>Buscando el empate, Oliver intenta una patada desde arriba, pero es en vano gracias a una parada fenomenal de Warner. A un minuto del final, Benji le roba el balón a Lenders y sale de la portería para atacar, pero su disparo a portería es desviado por Tom, aunque demasiado a la derecha; luego Oliver interviene para corregir la trayectoria y marcar un espléndido gol de chilena.</description>
+      <guid isPermaLink="false">ncybiSh7hQ</guid>
+      <pubDate>Thu, 03 Jul 2025 10:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La señal de la victoria de Mark</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-senal-de-la-victoria-de-mark</link>
+      <description>En el minuto 33 de la segunda parte, los Muppett se adelantan gracias a un disparo de Lenders que supera a Tom y le quita el guante de la mano a Benji después de haber intentado evitar el gol. Oliver logra dar confianza a sus compañeros que atacan con determinación en busca del empate.</description>
+      <guid isPermaLink="false">uK11pt37Ch</guid>
+      <pubDate>Thu, 03 Jul 2025 10:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La técnica especial de Bruce, el bloqueo con la cara</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-tecnica-especial-de-bruce-el-bloqueo-con-la-cara</link>
+      <description>Los Muppett, aprovechando las lesiones que han diezmado al Newteam, atacan con determinación en busca de la ventaja, pero los disparos de Lenders son bloqueados primero por Bruce y luego por Benji. Mientras tanto, Tom regresa al campo una vez que su pierna lesionada ha sido tratada y le han puesto un vendaje.</description>
+      <guid isPermaLink="false">rVa8lToIxB</guid>
+      <pubDate>Tue, 01 Jul 2025 10:01:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La batalla sin ases</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-batalla-sin-ases</link>
+      <description>Tras las lesiones de Oliver, Tom y Benji, el diezmado Newteam se encuentra en crisis al sufrir los ataques de sus rivales. En esta situación, Jack intenta detener a sus oponentes con intervenciones a veces incorrectas antes de darse cuenta de su error.</description>
+      <guid isPermaLink="false">ShAwtVKWNH</guid>
+      <pubDate>Tue, 01 Jul 2025 10:01:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La pareja de oro corre peligro</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-pareja-de-oro-corre-peligro</link>
+      <description>Mientras el juego avanza, vemos un flashback del padre de Tom donde se muestra cómo Tom se hizo amigo de los jugadores de Flynet. Mientras Benji comienza a sentir un ligero dolor en su pierna lesionada nuevamente, Mellow, en un intento de robarle el balón a Becker, se lastima gravemente la pierna.</description>
+      <guid isPermaLink="false">uWGzJNg9S1</guid>
+      <pubDate>Tue, 01 Jul 2025 10:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Choque! Benji contra Mark</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-choque-benji-contra-mark</link>
+      <description>Lenders persiste en marcar desde fuera del área para poner fin a la racha invicta de Benji y demostrar que es mejor que Oliver, pero el portero del Newteam bloquea fácilmente todos los tiros.</description>
+      <guid isPermaLink="false">maFbq6m590</guid>
+      <pubDate>Tue, 01 Jul 2025 10:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El remate en plancha llameante</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-remate-en-plancha-llameante</link>
+      <description>Aprovechando las lesiones de Oliver y Tom, todavía doloridos en el suelo, Muppett ataca en busca del empate. Mientras tanto, hay otro flashback recordado por la madre de Mark en el que se muestra la dura infancia de este, obligado a trabajar para ayudar a la familia a llegar a fin de mes tras las dificultades económicas derivadas de la muerte de su padre.</description>
+      <guid isPermaLink="false">ARzZHxoiId</guid>
+      <pubDate>Tue, 01 Jul 2025 10:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El tigre salvaje enseña sus garras</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-tigre-salvaje-ensena-sus-garras</link>
+      <description>Durante el descanso, Lenders se enfada con Mellow por haber desviado el último tiro. Lenders después les cuenta a sus compañeros que debe ganar el partido para obtener la beca en Tojú, necesaria para continuar sus estudios y su carrera a pesar de las dificultades económicas de su familia.</description>
+      <guid isPermaLink="false">4Yif6el169</guid>
+      <pubDate>Tue, 01 Jul 2025 10:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Ahí está! El inesperado tiro gemelo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-ahi-esta-el-inesperado-tiro-gemelo</link>
+      <description>Hay otra intervención incorrecta de Lenders contra Oliver, que es castigada con la falta y que provoca la reacción de Patty, quien invade el campo para regañar a Lenders. Los dos porteros demuestran ser formidables y aparentemente imbatibles: Warner continúa salvando numerosos tiros de Newteam, mientras que Benji salva un disparo de larga distancia de Lenders.</description>
+      <guid isPermaLink="false">yU2zWIrMAm</guid>
+      <pubDate>Sun, 29 Jun 2025 10:01:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La resurrección de Benji, el portero genial</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-resurreccion-de-benji-el-portero-genial</link>
+      <description>La final comienza con una acción incorrecta de Lenders, quien golpea a Oliver en el estómago con una bala de cañón. Inicialmente es el Newteam el que toma la iniciativa con varias conclusiones, pero Ed las salva hábilmente. Muppett tiene la oportunidad de marcar, pero Benji sale para cortar de raíz el disparo de Lenders quitándole el balón mientras preparaba el tiro.</description>
+      <guid isPermaLink="false">Sv2SZ1HFj7</guid>
+      <pubDate>Sun, 29 Jun 2025 10:01:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Mark, el tigre salvaje dormido</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-mark-el-tigre-salvaje-dormido</link>
+      <description>En vísperas de la final, es dudosa la presencia en el terreno de juego de Lenders, quien todavía continúa hospitalizado con fiebre alta debido al estrés por las excesivas responsabilidades que ha asumido. Benji busca venganza por el gol que Mark le marcó durante un partido de entrenamiento. In extremis, Mark se recupera y aparece sobre el césped en óptimas condiciones de salud.</description>
+      <guid isPermaLink="false">euUvh1PNtd</guid>
+      <pubDate>Thu, 26 Jun 2025 11:46:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El milagro de supertiro lejano</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-milagro-de-supertiro-lejano</link>
+      <description>Cuando todos se han resignado a la idea de que el partido se va a decidir mediante penaltis, dado que solo quedan unos segundos para finalizar, Oliver le roba el balón a Mambo y marca el gol de la victoria con un chute lejano. Newteam gana así el partido 5-4 y se clasifica para la final contra Muppett prevista para el día siguiente.</description>
+      <guid isPermaLink="false">2Q8kYLyDEk</guid>
+      <pubDate>Thu, 26 Jun 2025 11:46:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Mi corazón continúa latiendo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-mi-corazon-continua-latiendo</link>
+      <description>Ross se recupera y tranquiliza a todos sobre su estado de salud, aunque, para no arriesgar más su vida, se queda en la defensa apoyado en su propia portería. Newteam ataca en busca del empate, pero Mambo se atrinchera en defensa y, gracias a las brillantes directivas de Ross desde su área, cierra todos los espacios de forma eficaz.</description>
+      <guid isPermaLink="false">AdKmi0nEav</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Confrontación fatal! Oliver contra Mark</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-confrontacion-fatal-oliver-contra-mark</link>
+      <description>Comienza el partido entre Newteam y Muppett. El choque entre Oliver y Mark es inmediato, aunque termina en un punto muerto. Pasan unos minutos y Newteam toma la delantera, pero Oliver pasa por encima de Lenders con un taconazo magistral y después se gira y patea a la red.</description>
+      <guid isPermaLink="false">kTgq4iHQ2b</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Gran batalla aérea</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-gran-batalla-aerea</link>
+      <description>Los ataques del Newteam son rechazados cada vez por Hotdog, pero, cuando falta menos de un minuto, Oliver tiene la idea de emular el tiro triangular de los Derricks y, de esta manera, ante el tiro de Becker, logra marcar el gol para marcar el 3- 2 garantizando el paso de ronda al Newteam. En octavos de final, Newteam se enfrenta al Norfolk de Teo.</description>
+      <guid isPermaLink="false">qsLuGg5J45</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Enfrentamiento sangriento</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-enfrentamiento-sangriento</link>
+      <description>A pocos minutos del final, Flynet empata gracias a un gol de Callaham y, al final del partido, también tiene la oportunidad de tomar ventaja tras un penalti concedido por una mano cometida en el área por un defensa de los Muppett. Cuando parece que los Muppett están al borde del abismo, aparece un reemplazo para Muppett: Ed entra al campo y detiene el penalti de Callaham.</description>
+      <guid isPermaLink="false">rHjIyAxOcR</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Pánico al tiro temible</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-panico-al-tiro-temible</link>
+      <description>Crocker queda impactado; el terrible balón que recibió le ha hecho sentir verdadero terror. Mark, muy consciente de ello, ordena a Mellow que chute hacia la portería, el tiro es lejano y bastante débil, pero, a pesar de ello, Alan permanece inmóvil y el balón acaba en la red. Oliver se toma en serio el problema de Alan e intercepta intencionalmente el disparo de Mark con la cara.</description>
+      <guid isPermaLink="false">FFHKl8i0vx</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡No llores, Oliver!</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-no-llores-oliver</link>
+      <description>Danny logra marcar el gol de la victoria para Muppett. Oliver llora porque está convencido de que con esta derrota su equipo ya no podrá ganar el campeonato y, en consecuencia, él no podrá realizar su sueño de ir a Brasil. Sin embargo, para el Newteam no todo está perdido, ya que, si ganan todos los partidos restantes, podrán clasificarse en la fase final del torneo.</description>
+      <guid isPermaLink="false">RvfHF6IPbs</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El príncipe herido</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-principe-herido</link>
+      <description>La segunda semifinal es entre Newteam y Mambo. La presencia de Julian en el campo desde el primer minuto garantiza a Mambo una superioridad inicial que crea las primeras posibles oportunidades de gol, obligando al Newteam a recurrir a la defensa.</description>
+      <guid isPermaLink="false">tZH7aDufiz</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El mismo sueño arde en los once</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-mismo-sueno-arde-en-los-once</link>
+      <description>El Newteam realiza los últimos entrenamientos antes de partir hacia Tokio donde se disputarán los campeonatos nacionales. La lesión de Benji es más grave de lo esperado, por lo que no podrá participar en el torneo. Benji le arranca a Oliver la promesa de ganar todos los partidos para poder jugar juntos y la final, que con toda probabilidad se disputará contra los Muppetts de Mark.</description>
+      <guid isPermaLink="false">C1SZGnA2Kx</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El error garrafal de Bruce</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-error-garrafal-de-bruce</link>
+      <description>El Hotdog sigue atacando y los Derrick Twins realizan un nuevo tiro acrobático. Esta vez Crocker logra alejar el balón con un puñetazo que es recogido por Bruce, quien, sin embargo, por la emoción, marca un gol en propia meta, dando la ventaja al equipo contrario.</description>
+      <guid isPermaLink="false">hVYFjDu2YA</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Los once luchadores de las tierras del norte</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-los-once-luchadores-de-las-tierras-del-norte</link>
+      <description>Muppett se ve en serios problemas por el juego del equipo de Flynet, que logra igualar con un penalti concedido por una falta en el área cometida por Lenders contra Callaham, que el propio Callaham convierte. La primera parte termina 1-1, pero Lenders parece agotado y no está en su condición física óptima, tal vez por el estrés excesivo que ha acumulado últimamente.</description>
+      <guid isPermaLink="false">6slgfhKfJy</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Comienza el campeonato nacional!</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-comienza-el-campeonato-nacional</link>
+      <description>El Newteam llega a la ciudad donde tiene lugar el torneo, Oliver y sus compañeros tienen la oportunidad de conocer a algunos de sus próximos oponentes como son los Derrick Twins, Philip, Sellers, Julian. Oliver es el encargado de dar el discurso de apertura de la ceremonia. El primer equipo al que se enfrentará el Newteam será el fortísimo Muppett capitaneado por Mark.</description>
+      <guid isPermaLink="false">hlVs5OoQVL</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Yo soy el mejor portero del torneo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-yo-soy-el-mejor-portero-del-torneo</link>
+      <description>Comienza el partido entre Newteam y Norfolk con Teo queriendo igualar el récord de no encajar goles que posee Benji. Inicialmente, Sellers parece una barrera infranqueable, capaz de bloquear incluso los tiros más insidiosos, y, por si fuera poco, Norfolk, tras un chute largo de su portero, logra ponerse por delante con un contraataque. Oliver marca el empate con un disparo desde fuera del área.</description>
+      <guid isPermaLink="false">K2SAZgN0YD</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Oliver con las alas cortadas</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-oliver-con-las-alas-cortadas</link>
+      <description>Durante el descanso, Julian lleva a Maggie a un lado y le da una bofetada por revelarle el secreto del estado de su corazón a Oliver, ya que está afectando al juego. Mientras tanto, Oliver parece haberse rendido porque ve a Julian muy superior a él, a pesar de tener una enfermedad cardíaca.  Al comienzo de la segunda parte, incluso empeora en las intervenciones más simples.</description>
+      <guid isPermaLink="false">PF59RsnNo1</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡El fútbol es mi sueño!</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-futbol-es-mi-sueno</link>
+      <description>En la segunda mitad, Muppett toma la delantera y, después de unos minutos, Danny pasa a Mark, quien marca el 3-2. Momentos después, el Newteam empata. Una volea de Mark devuelve a Muppett la ventaja, pero poco después Oliver cabecea nuevamente para poner el 4-4. Se produce un gran choque aéreo entre los dos capitanes, Mark toma la delantera y marca el quinto gol.</description>
+      <guid isPermaLink="false">HeB5pEMJyn</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Los delanteros gemelos</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-los-delanteros-gemelos</link>
+      <description>Las eliminatorias continúan y el partido entre Hotdog y Muppett termina con el resultado 5-5. Ahora es el turno del partido entre Newteam y Hotdog. Este último, en virtud de los mejores resultados obtenidos, necesitaría un empate para pasar, mientras que Newteam necesariamente debe ganar. Oliver demuestra su clase desde el principio y logra marcar para finalizar la primera parte con el 1-0.</description>
+      <guid isPermaLink="false">IPKBYUNpAY</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Choque de semifinalistas</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-choque-de-semifinalistas</link>
+      <description>Gracias a la entrada de Ross, el partido entre Mambo y Holiday termina 6-2 para Mambo. La primera semifinal es entre Flynet de Philip y Muppett de Mark, con Callaham decidido a ganar para hacer pagar a Mark por la violenta bofetada que recibió en el comedor.</description>
+      <guid isPermaLink="false">PwGHEfNqK8</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La resurrección de Oliver</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-resurreccion-de-oliver</link>
+      <description>Benji reprende a Oliver por darse por vencido, acusándolo de desperdiciar los esfuerzos de todo el equipo. Se espera que la reprimenda surta efecto, pero, en realidad, una vez que se reanuda el juego, Oliver sigue jugando mal y perdiendo nuevamente el balón, con lo que Mambo tiene otra oportunidad de marcar que, sin embargo, falla.</description>
+      <guid isPermaLink="false">n8mf0OEDc3</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El as de cristal</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-as-de-cristal</link>
+      <description>Sellers, ofuscado por el gol, pierde la frialdad necesaria de un portero y, en consecuencia, su rendimiento se resiente. Así, al final de la primera parte, el Newteam logra ponerse por delante con un gol de Mason asistido por Oliver. En la segunda mitad, el Newteam se desata marcando con Diamond, Becker y, nuevamente, con Oliver. El partido termina 5-1 para Newteam.</description>
+      <guid isPermaLink="false">rhVJp7gZrI</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Enfrentamiento apasionante</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-enfrentamiento-apasionante</link>
+      <description>En el minuto 10 de la primera mitad, Ross le da a Mambo la ventaja con un puntapié. En dos ocasiones, Oliver siente que le influye el conocer el problema cardíaco de Julian, primero perdiendo una oportunidad fácil de marcar porque comienza tarde y luego perdiendo un duelo con Ross.</description>
+      <guid isPermaLink="false">8XtVy5cASB</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Oliver cae en la trampa</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-oliver-cae-en-la-trampa</link>
+      <description>Mambo aplica el dejar fuera de juego al equipo rival. La táctica es sumamente eficaz para neutralizar todas las acciones ofensivas del Newteam y, por si fuera poco, al final del primer tiempo Mambo logra volver a tomar ventaja gracias a un remate de cabeza de Julian. La primera parte finaliza con marcador de 2-1 a favor de Mambo.</description>
+      <guid isPermaLink="false">IeDh50EeqY</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Julian, no mueras</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-julian-no-mueras</link>
+      <description>Ross comienza a sentir un ligero dolor de cabeza, también cansado por el suelo embarrado por la lluvia. A pesar de todo, logra regatear a algunos oponentes, pero pierde el desafío con Oliver, que le roba el balón a la fuerza y vuela hacia la portería de Mambo, logrando igualar con tiro vertical deslizante. Ross se viene abajo y se ve obligado a revelar el secreto de su enfermedad cardíaca a todos.</description>
+      <guid isPermaLink="false">WsE1ZpUojj</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Duro partido en el barro</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-duro-partido-en-el-barro</link>
+      <description>Alfred Thompson logra mantener el resultado hasta el final de la primera parte, que termina con el resultado 1-0 a su favor. Comienza la segunda mitad y, bajo una lluvia torrencial, Alfred Thompson logra duplicar su ventaja. Mientras tanto, en otros lugares, Muppett, después de perder 3 goles, logró vencer al Nudols por 4-3. Todos los goles fueron obra de Mark.</description>
+      <guid isPermaLink="false">CrJbZINC0j</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La inoportuna lesión del portero</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-inoportuna-lesion-del-portero</link>
+      <description>Se juega la final regional y el primer tiempo finaliza en 0-0. Sin embargo, los jugadores de Stampton han notado un punto débil en el Newteam: Benji todavía sufre una lesión en su pierna. Comienza la segunda parte y Stampton carga contra Benji, que cae al suelo dolorido. Una intervención providencial de Tom en la línea evita el peligro.</description>
+      <guid isPermaLink="false">hEwM3LC7zs</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El príncipe del campo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-principe-del-campo</link>
+      <description>Newteam continúa presionando y logra el empate. Diamond pasa a Oliver, quien marca el segundo gol. Alfred Thompson se estremece, lo intenta todo y abandona la táctica defensiva utilizada hasta el momento para lanzarse al ataque, pero las acciones son en vano porque el Newteam recupera la posesión del balón y, al final, Oliver con un potente disparo fija el resultado en 3-2.</description>
+      <guid isPermaLink="false">DH84ESycby</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¡Objetivo: Japón!</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-objetivo-japon</link>
+      <description>El Newteam, equipo que representa a la ciudad de Fujisawa, se impuso fácilmente en los primeros partidos de las selecciones regionales y obtuvo las siguientes puntuaciones: 7-0 contra Fenton, 10-0 contra Imperial, 11-0 contra Kensington, 8-0 contra Offers, 9-0 contra Olfon y 7-0 contra Host Cup.</description>
+      <guid isPermaLink="false">BiVIQS36wE</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El balón es tu amigo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-balon-es-tu-amigo</link>
+      <description>Newteam sigue entrenando con ilusión de cara al partido contra S. Francis. Es destacable el compromiso de los compañeros de Oliver, los jugadores nunca se separan del balón y de la mano de Roberto mejoran día a día su técnica.</description>
+      <guid isPermaLink="false">YxqLQeXDLr</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Camino del sueño de Brasil</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-camino-del-sueno-de-brasil</link>
+      <description>Roberto anuncia su retirada del fútbol profesional debido al desprendimiento parcial de retina en un ojo. Su pasión por el fútbol y sus sueños se contagian a Oliver en este momento: Roberto quiere llevarse a Oliver a Brasil.</description>
+      <guid isPermaLink="false">NQkxAOKXb0</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Lucha, niño prodigio del fútbol</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-lucha-nino-prodigio-del-futbol</link>
+      <description>Para ganar el desafío, Oliver debe regatear a los miembros de un equipo completo y luego marcar. Oliver logra fácilmente llegar a la puerta y con un cabezazo logra marcar el gol. Benji está furioso por el gol que acaba de encajar y le dice a Oliver que solo se considerará derrotado si consigue un gol en un partido oficial o durante el próximo partido entre Newteam y Saint Francis.</description>
+      <guid isPermaLink="false">kLXoyROfta</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La esperanza del tiro lejano</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-esperanza-del-tiro-lejano</link>
+      <description>Newteam, en desventaja, busca desesperadamente el empate. El tiempo pasa rápido y, faltando unos minutos, Benji ordena a sus compañeros que pongan 'la jaula' en su lugar; de esta forma, Newteam ya no puede recuperar la posesión del balón.</description>
+      <guid isPermaLink="false">0Eslspyrs9</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El nacimiento de la pareja perfecta</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-nacimiento-de-la-pareja-perfecta</link>
+      <description>El tiempo reglamentario terminó en empate y hubo que jugar 10 minutos de prórroga. Bruce sufrió una lesión más grave de lo esperado en el choque con Carter y no puede continuar. En su lugar juega Tom, que acaba de llegar a la ciudad. Mientras, Benji ya no quiere continuar el partido, su desafío personal con Oliver terminó en derrota y, por lo tanto, considera innecesario seguir jugando.</description>
+      <guid isPermaLink="false">SLCN5ovals</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: ¿Dónde está el rival?</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-donde-esta-el-rival</link>
+      <description>Comienza el torneo escolar juvenil entre Newteam y S. Francis. Oliver y sus amigos esperan ansiosamente el inicio del encuentro y, entre tanto, Oliver tuvo la oportunidad de lucirse ganando la carrera de 100 metros y también dando patadas a su querido balón.</description>
+      <guid isPermaLink="false">ZLgP42jGDC</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: La última oportunidad</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-la-ultima-oportunidad</link>
+      <description>El partido continúa a un ritmo incesante. A pesar de la ventaja, S. Francis sigue atacando y estuvo a punto de marcar con un disparo que es bloqueado milagrosamente por una volea de Tom que rechaza el balón. A pesar de esto, Newteam todavía cree en el empate y logra ganarlo gracias a una acción de la pareja Oliver-Tom.</description>
+      <guid isPermaLink="false">i2AkValZTh</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Saque inicial hacia el futuro</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-saque-inicial-hacia-el-futuro</link>
+      <description>Comienzan las clases y Patty le da una cálida bienvenida a Oliver y organiza un pequeño evento en su honor. Por la tarde, el primer entrenamiento será contra el equipo Naughty Boys, que subestima el potencial de Newteam, ya que este último fue derrotado por 30-0 ante S. Francis en el campeonato anterior.</description>
+      <guid isPermaLink="false">U5a11is6hB</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Desplegando las alas hacia el cielo</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-desplegando-las-alas-hacia-el-cielo</link>
+      <description>La familia Atton se muda a Fujisawa. Oliver tiene 11 años y le encanta jugar al fútbol. Nada más llegar a la nueva ciudad, el chico se dirige al campamento del barrio para encontrar nuevos amigos con los que compartir su pasión. Aquí, dos equipos escolares, Newteam y S. Francis, compiten por el uso del área de juego.</description>
+      <guid isPermaLink="false">PiqtirhOfG</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: El desafío de Mark</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-el-desafio-de-mark</link>
+      <description>Oliver, Tom y Bruce son los tres jugadores de Newteam seleccionados para formar parte del nuevo equipo. Bruce, dado su menor nivel técnico, es sometido a ejercicios adicionales por parte de sus compañeros. Mientras tanto, comienzan los entrenamientos de la nueva selección y, durante uno de ellos, aparece Mark, capitán de los Muppett, y desafía a Benji a bloquear uno de sus tiros.</description>
+      <guid isPermaLink="false">B1CjUHZW4V</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Campeones: Oliver y Benji: Defendiendo la portería</title>
+      <link>https://amcchannels.es/programa/campeones-oliver-y-benji-defendiendo-la-porteria</link>
+      <description>El encuentro entre Newteam y S. Francis ya ha comenzado. Oliver juega en la posición de líbero y evita que los atacantes contrarios realicen acciones directas hacia la portería. A pocos minutos del final del primer tiempo hay una gran oportunidad para Newteam.</description>
+      <guid isPermaLink="false">ywjyBvXXFE</guid>
+      <pubDate>Wed, 25 Jun 2025 10:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>La rebelión de los cuentos: Episodio 2</title>
+      <link>https://amcchannels.es/programa/la-rebelion-de-los-cuentos-episodio-2</link>
+      <description>Jack crece con el corazón puesto en Cindy, la vecina de al lado. Ella se deja seducir por el príncipe elegible en el baile, y Jack se distrae con un tallo de judía gigante en el fondo de su jardín. ¿Encontrarán el amor verdadero?</description>
+      <guid isPermaLink="false">8s1ark8XBW</guid>
+      <pubDate>Sun, 16 Apr 2023 06:46:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>La rebelión de los cuentos: Episodio 1</title>
+      <link>https://amcchannels.es/programa/la-rebelion-de-los-cuentos-episodio-1</link>
+      <description>Las jóvenes Blancanieves y Caperucita Roja se hacen amigas para toda la vida. En tanto Blancanieves se enfrenta al poder de la malvada Reina, Caperucita es llamada a casa para enfrentarse a un par de lobos hambrientos: uno se ha comido a su abuela y luego se ha vestido con sus ropas, mientras que el otro no puede evitar comerse a unos cerdos desprevenidos. </description>
+      <guid isPermaLink="false">1fXocWQuRk</guid>
+      <pubDate>Sun, 16 Apr 2023 06:46:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
