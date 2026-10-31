@@ -1,2 +1,2 @@
-requests
-feedgen
+requests>=2.31
+feedgen>=1.0
